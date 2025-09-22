@@ -23,7 +23,7 @@ export default function Brandscomp({brands}: {brands:Brandsmod[]}) {
   
   <h2 className='text-center mb-2 Asimovian text-[#13bfe3]  text-[24px]'>{brand?.name}</h2>
   <p className='text-[16px] mb-2 Signika text-center'>{brand?.updatedAt.split("").slice(0,4)}</p>
-  <Link href={`/brands/${brand?._id}`} className=' bg-[#13bfe3] text-[12px] rounded-xl px-5 w-24 duration-300 hover:bg-transparent border border-[#13bfe3] justify-around     md:py-1 Asimovian cursor-pointer gap-1 flex items-center '>Details<Eye className='w-[16px]'  /></Link>
+  <Link href={`/brands/${brand?._id}`} className=' bg-[#13bfe3] md:hidden text-[12px] rounded-xl px-5 w-24 duration-300 hover:bg-transparent border border-[#13bfe3] justify-around     md:py-1 Asimovian cursor-pointer gap-1 flex items-center '>Details<Eye className='w-[16px]'  /></Link>
   
   
   <div className='text-center brand text-white rounded-b-2xl px-1  bg-[#13bfe3] absolute top-0 left-[50%] translate-x-[-50%]'>

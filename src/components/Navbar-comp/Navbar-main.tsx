@@ -64,7 +64,7 @@ export default function Navbarmain() {
      initial={{ y: -100 ,opacity: 0.5 }}
      animate={{ y: 0 , opacity: 1 }}
      transition={{ duration: 1 , ease: "easeIn"  }}>
-      <NavigationMenu className='bg-gray-50 px-4 md:px-10 py-2 border-e border-s rounded-b-3xl  md:rounded-b-4xl border-b border-[#13bfe3]  max-w-7xl flex  justify-between'>
+      <NavigationMenu className='bg-gray-50 px-4 md:px-10 py-2 border-e border-s rounded-b-3xl mx-auto  md:rounded-b-4xl border-b border-[#13bfe3]  max-w-7xl flex  justify-between'>
   <NavigationMenuList>
     <NavigationMenuItem>
        <Link href="/"><img className='w-15 md:w-20' src={logo1.src} alt="" /></Link>
